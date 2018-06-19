@@ -21,6 +21,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       home: new MyHomePage(title: 'Monikers'),
+      routes: <String, WidgetBuilder> {
+        '/gameScreen' : (context) => new gameScreen(),
+      },
     );
   }
 }
@@ -55,10 +58,6 @@ class _MyHomePageState extends State<MyHomePage> {
       // called again, and so nothing would appear to happen.
       _counter++;
     });
-  }
-
-  void startGame() {
-    return;
   }
 
   @override
@@ -98,7 +97,9 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:' + _counter.toString(),
             ),
             new RaisedButton(
-              onPressed: startGame,
+              onPressed: () {
+                Navigator.of(context).pushNamed('/gameScreen');
+              },
               child: new Text(
                 'Start a game!'
               ),
@@ -106,11 +107,6 @@ class _MyHomePageState extends State<MyHomePage> {
             )
           ],
         ),
-      ),
-      floatingActionButton: new FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: new Icon(Icons.add),
       ),
       // This trailing comma makes auto-formatting nicer for build methods.
     );
