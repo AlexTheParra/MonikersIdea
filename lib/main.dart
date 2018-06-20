@@ -62,17 +62,6 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  int _currentPlayers = 2;
-
-  void _changeCurrPlayers(int players) {
-    _currentPlayers = players;
-  }
-
-  double _minPerRound = .5;
-
-  void _changeMPR(double mpr){
-    _minPerRound = mpr;
-  }
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -90,6 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: new Column(
                   children: <Widget>[
                     const ListTile(
+                      leading: const Icon(Icons.people_outline),
                       title: const Text('New Game'),
                       subtitle: const Text('Start a new game with your '
                           'preferred settings'),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'support.dart';
 
 class newGame extends StatefulWidget {
   @override
@@ -111,15 +112,18 @@ class newGameScreen extends State<newGame> {
                 ],
               ),
             ),
-            new RaisedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed('/gameScreen');
-              },
-              child: new Text(
-                  'Start a game!'
-              ),
-              color: Theme.of(context).accentColor,
-            )
+            new Padding(
+                padding: new EdgeInsets.fromLTRB(0.0, 8.0, 0.0, 8.0),
+                child: new RaisedButton(
+                  onPressed: () {
+                    Navigator.of(context).pushNamed('/gameScreen');
+                  },
+                  child: new Text(
+                      'Start a game!'
+                  ),
+                  color: Theme.of(context).accentColor,
+                )
+            ),
           ],
         ),
       ),
