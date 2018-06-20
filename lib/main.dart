@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'gameScreen.dart';
+import 'newGame.dart';
 
 void main() => runApp(new MyApp());
 
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       home: new MyHomePage(title: 'Monikers'),
       routes: <String, WidgetBuilder> {
         '/gameScreen' : (context) => new gameScreen(),
+        '/newGame' : (context) => new newGame(),
       },
     );
   }
@@ -60,55 +62,55 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  int _currentPlayers = 2;
+
+  void _changeCurrPlayers(int players) {
+    _currentPlayers = players;
+  }
+
+  double _minPerRound = .5;
+
+  void _changeMPR(double mpr){
+    _minPerRound = mpr;
+  }
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return new Scaffold(
       appBar: new AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: new Text(widget.title),
+        title: new Text('Monikers')
       ),
-      body: new Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: new Column(
-          // Column is also layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Invoke "debug paint" (press "p" in the console where you ran
-          // "flutter run", or select "Toggle Debug Paint" from the Flutter tool
-          // window in IntelliJ) to see the wireframe for each widget.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            new Text(
-              'You have pushed the button this many times:' + _counter.toString(),
-            ),
-            new RaisedButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed('/gameScreen');
-              },
-              child: new Text(
-                'Start a game!'
-              ),
-              color: Theme.of(context).accentColor,
-            )
-          ],
+      body: new Container(
+        alignment: Alignment.topLeft,
+        child: new Padding(
+          padding: new EdgeInsets.all(10.0),
+          child: new Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              new Card(
+                child: new Column(
+                  children: <Widget>[
+                    const ListTile(
+                      title: const Text('New Game'),
+                      subtitle: const Text('Start a new game with your '
+                          'preferred settings'),
+                    ),
+                    new ButtonTheme.bar(
+                      child: new ButtonBar(
+                        children: <Widget>[
+                          new FlatButton(onPressed: () {
+                            Navigator.of(context).pushNamed('/newGame');
+                          }, child: new Text('NEW GAME')),
+
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              )
+            ],
+          ),
         ),
       ),
-      // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

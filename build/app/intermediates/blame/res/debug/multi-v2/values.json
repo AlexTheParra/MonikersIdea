@@ -14,12 +14,46 @@
                         "endOffsets": "353"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "12",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
+                        "startOffsets": "1175",
+                        "endLines": "16",
                         "endColumns": "12",
-                        "endOffsets": "347"
+                        "endOffsets": "1467"
+                    }
+                },
+                {
+                    "source": "C:\\Workspace\\monikers2\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,308,390,494,597,717,815",
+                        "endColumns": "143,108,81,103,102,119,97,74",
+                        "endOffsets": "194,303,385,489,592,712,810,885"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "340,484,593,675,779,882,1002,1100",
+                        "endColumns": "143,108,81,103,102,119,97,74",
+                        "endOffsets": "479,588,670,774,877,997,1095,1170"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.4.2.aar\\63c0b70e0f8fc91deb755b6fd7430b7d\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "0,0",
+                        "startOffsets": "276,439",
+                        "endColumns": "63,166",
+                        "endOffsets": "339,605"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,173",
+                        "endColumns": "67,166",
+                        "endOffsets": "168,335"
                     }
                 }
             ]

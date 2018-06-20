@@ -11,10 +11,24 @@ public final class R {
   public static final class drawable {
     public static final int launch_background=0x7f010000;
   }
+  public static final class integer {
+    public static final int google_play_services_version=0x7f020000;
+  }
   public static final class mipmap {
-    public static final int ic_launcher=0x7f020000;
+    public static final int ic_launcher=0x7f030000;
+  }
+  public static final class string {
+    public static final int common_google_play_services_unknown_issue=0x7f040000;
+    public static final int default_web_client_id=0x7f040001;
+    public static final int firebase_database_url=0x7f040002;
+    public static final int gcm_defaultSenderId=0x7f040003;
+    public static final int google_api_key=0x7f040004;
+    public static final int google_app_id=0x7f040005;
+    public static final int google_crash_reporting_api_key=0x7f040006;
+    public static final int google_storage_bucket=0x7f040007;
+    public static final int project_id=0x7f040008;
   }
   public static final class style {
-    public static final int LaunchTheme=0x7f030000;
+    public static final int LaunchTheme=0x7f050000;
   }
 }

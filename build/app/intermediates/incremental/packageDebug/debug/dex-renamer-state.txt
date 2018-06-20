@@ -1,4 +1,4 @@
-#Mon Jun 18 22:31:34 PDT 2018
+#Tue Jun 19 22:29:11 PDT 2018
 base.0=C\:\\Workspace\\monikers2\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
