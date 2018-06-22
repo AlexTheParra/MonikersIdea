@@ -9,7 +9,7 @@ class newGame extends StatefulWidget {
 
 class newGameScreen extends State<newGame> {
 
-  int _currentPlayers = 2;
+  int _currentPlayers = 4;
 
   void _changeCurrPlayers(int players) {
     _currentPlayers = players;
@@ -65,8 +65,8 @@ class newGameScreen extends State<newGame> {
                                 child: new Slider(
                                   label: "Number of Players: $_currentPlayers",
                                   value: _currentPlayers.toDouble(),
-                                  max: 6.0,
-                                  min: 2.0,
+                                  max: 8.0,
+                                  min: 4.0,
                                   divisions: 4,
                                   onChanged: (double newValue) {
                                     setState(() {

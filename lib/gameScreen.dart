@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'support.dart';
 import 'cardChoosing.dart';
+import 'cardsHandler.dart';
 
 class gameScreen extends StatefulWidget {
   final List<gameValue> values;
@@ -13,6 +14,8 @@ class gameScreenState extends State<gameScreen> {
 
   int _playersLeft;
   bool _rendered = false;
+  CurrentDeck deck;
+  AllCards cards;
 
   void _chooseCard() {
     if (_playersLeft > 0) {
@@ -30,8 +33,10 @@ class gameScreenState extends State<gameScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    !_rendered ? _playersLeft  = widget.values.elementAt(0).value.truncate() : _rendered = true;
+    if (!_rendered) {
+      _playersLeft  = widget.values.elementAt(0).value.truncate();
+      //cards = new AllCards();
+    }
     _rendered = true;
     return new Scaffold(
       appBar: new AppBar(
@@ -130,7 +135,8 @@ class gameScreenState extends State<gameScreen> {
                     },
                     child: new Text('START GAME!'),
 
-                  )
+                  ),
+                  //new Text(cards.allCards.elementAt(0).name),
                 ],
               )
             ],
