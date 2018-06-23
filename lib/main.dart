@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'newGame.dart';
+import 'helpScreen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -54,6 +55,27 @@ class _MyHomePageState extends State<MyHomePage> {
           child: new Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
+              new Card(
+                child: new Column(
+                  children: <Widget>[
+                    const ListTile(
+                      leading: const Icon(Icons.help_outline),
+                      title: const Text('Rules and FAQs'),
+                      subtitle: const Text('Read about the rules and the FAQs.'),
+                    ),
+                    new ButtonTheme.bar(
+                      child: new ButtonBar(
+                        children: <Widget>[
+                          new FlatButton(onPressed: () {
+                            Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => helpScreen()));
+                          }, child: new Text('RULES'))
+                        ],
+                      ),
+                    )
+                  ],
+                )
+              ),
               new Card(
                 child: new Column(
                   children: <Widget>[

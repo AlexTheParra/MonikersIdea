@@ -133,8 +133,11 @@ class gameScreenState extends State<gameScreen> {
                     onPressed: () {
                       _playersLeft > 0 ? null : _startGame;
                     },
-                    child: new Text('START GAME!'),
-
+                    child: new Text('START GAME!',
+                    style: new TextStyle(
+                      color: _playersLeft > 0 ? Colors.black : Colors.white,
+                    )),
+                    color: _playersLeft > 0 ? Theme.of(context).primaryColorLight : Theme.of(context).accentColor,
                   ),
                   //new Text(cards.allCards.elementAt(0).name),
                 ],

@@ -5,65 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108ff864-f817-497a-a4e6-fa960f3984cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/cardsHandler.dart" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/helpScreen.dart" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app.dill" afterPath="$PROJECT_DIR$/build/app.dill" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app.dill.incremental.dill" afterPath="$PROJECT_DIR$/build/app.dill.incremental.dill" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/flutter_assets/kernel_blob.bin" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/flutter_assets/kernel_blob.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/classes/debug/io/flutter/plugins/GeneratedPluginRegistrant.class" afterPath="$PROJECT_DIR$/build/app/intermediates/classes/debug/io/flutter/plugins/GeneratedPluginRegistrant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/classes/debug/me/alexparra/monikers2/R$drawable.class" afterPath="$PROJECT_DIR$/build/app/intermediates/classes/debug/me/alexparra/monikers2/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/classes/debug/me/alexparra/monikers2/R$mipmap.class" afterPath="$PROJECT_DIR$/build/app/intermediates/classes/debug/me/alexparra/monikers2/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/classes/debug/me/alexparra/monikers2/R$style.class" afterPath="$PROJECT_DIR$/build/app/intermediates/classes/debug/me/alexparra/monikers2/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/classes/debug/me/alexparra/monikers2/R.class" afterPath="$PROJECT_DIR$/build/app/intermediates/classes/debug/me/alexparra/monikers2/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/debug/zip-cache/GkFy7D12fO7kpZHucIEwmaXBPF4=" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/debug/zip-cache/GkFy7D12fO7kpZHucIEwmaXBPF4=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/debug/zip-cache/VtN8Mz77F10t+IuxYWLtbryCWNk=" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/debug/zip-cache/VtN8Mz77F10t+IuxYWLtbryCWNk=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/app/intermediates/res/debug/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/build/app/intermediates/res/merged/debug/values_values.arsc.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/io/flutter/plugins/GeneratedPluginRegistrant.dex" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/io/flutter/plugins/GeneratedPluginRegistrant.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/me/alexparra/monikers2/R$drawable.dex" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/me/alexparra/monikers2/R$drawable.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/me/alexparra/monikers2/R$mipmap.dex" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/me/alexparra/monikers2/R$mipmap.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/me/alexparra/monikers2/R$style.dex" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/me/alexparra/monikers2/R$style.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/me/alexparra/monikers2/R.dex" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25/me/alexparra/monikers2/R.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/5.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/6.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/7.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/8.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/9.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/9.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.packages" afterPath="$PROJECT_DIR$/.packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/generated/source/r/debug/me/alexparra/monikers2/R.java" afterPath="$PROJECT_DIR$/build/app/generated/source/r/debug/me/alexparra/monikers2/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/flutter_assets/LICENSE" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/flutter_assets/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/multi-v2/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/build/app/intermediates/blame/res/debug/single/debug.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/LICENSE" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/app/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/app/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cardChoosing.dart" afterPath="$PROJECT_DIR$/lib/cardChoosing.dart" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gameScreen.dart" afterPath="$PROJECT_DIR$/lib/gameScreen.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/newGame.dart" afterPath="$PROJECT_DIR$/lib/newGame.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubspec.lock" afterPath="$PROJECT_DIR$/pubspec.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/widget_test.dart" afterPath="$PROJECT_DIR$/test/widget_test.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -82,11 +36,21 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="62" />
+            <state relative-caret-position="840">
+              <caret line="70" column="78" lean-forward="false" selection-start-line="70" selection-start-column="78" selection-end-line="70" selection-end-column="78" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpScreen.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/helpScreen.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +68,7 @@
       <file leaf-file-name="widget_test.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/widget_test.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="189">
               <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="e#0#1053#0" expanded="true" />
@@ -114,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameScreen.dart" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gameScreen.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/gameScreen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="59" column="65" lean-forward="false" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+            <state relative-caret-position="498">
+              <caret line="139" column="81" lean-forward="false" selection-start-line="139" selection-start-column="81" selection-end-line="139" selection-end-column="81" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -126,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cardChoosing.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cardChoosing.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cardChoosing.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="252">
+              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -141,7 +105,7 @@
       <file leaf-file-name="cardsHandler.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cardsHandler.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
+            <state relative-caret-position="798">
               <caret line="41" column="87" lean-forward="false" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="98" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -153,7 +117,7 @@
       <file leaf-file-name="newGame.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/newGame.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="691">
               <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -211,11 +175,12 @@
         <option value="$PROJECT_DIR$/lib/support.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/test/widget_test.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/cardsHandler.dart" />
-        <option value="$PROJECT_DIR$/lib/gameScreen.dart" />
         <option value="$PROJECT_DIR$/lib/newGame.dart" />
         <option value="$PROJECT_DIR$/lib/cardChoosing.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/helpScreen.dart" />
+        <option value="$PROJECT_DIR$/lib/gameScreen.dart" />
       </list>
     </option>
   </component>
@@ -243,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -408,7 +374,6 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -515,7 +480,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529639427464" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529778616531" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -563,7 +528,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529639427464" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529778616532" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -777,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529629673650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Started handling Card Choosing">
+      <created>1529639472928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529639472928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -794,29 +766,26 @@
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3132948" sideWeight="0.51283425" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="848" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3132948" sideWeight="0.48716578" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3132948" sideWeight="0.51283425" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3132948" sideWeight="0.48716578" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33526012" sideWeight="0.48716578" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.49786097" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -825,7 +794,10 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="848" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -861,13 +833,91 @@
     <MESSAGE value="Set up gameScreen" />
     <MESSAGE value="Set up new game screen" />
     <MESSAGE value="Set up card choosing and enhancements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up card choosing and enhancements" />
+    <MESSAGE value="Started handling Card Choosing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started handling Card Choosing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/widget_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#1053#0" expanded="true" />
+            <element signature="e#354#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gameScreen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="59" column="65" lean-forward="false" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cardsHandler.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="41" column="87" lean-forward="false" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="98" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/newGame.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/support.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cardChoosing.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -894,7 +944,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -932,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +999,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1020,7 +1067,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1051,7 +1097,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1068,19 +1113,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,7 +1196,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/widget_test.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="189">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#0#1053#0" expanded="true" />
@@ -1166,13 +1209,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/cardsHandler.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="798">
           <caret line="41" column="87" lean-forward="false" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="98" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
@@ -1182,8 +1224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="62" />
+        <state relative-caret-position="840">
+          <caret line="70" column="78" lean-forward="false" selection-start-line="70" selection-start-column="78" selection-end-line="70" selection-end-column="78" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1192,8 +1234,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/newGame.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="691">
           <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/helpScreen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cardChoosing.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1202,18 +1262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gameScreen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="59" column="65" lean-forward="false" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cardChoosing.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="498">
+          <caret line="139" column="81" lean-forward="false" selection-start-line="139" selection-start-column="81" selection-end-line="139" selection-end-column="81" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
