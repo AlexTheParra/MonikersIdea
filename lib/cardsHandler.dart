@@ -1,7 +1,6 @@
-import 'dart:async';
-
+import 'dart:convert';
 import 'support.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:http/http.dart' as http;
 
 class CurrentDeck {
 
@@ -28,6 +27,7 @@ class CurrentDeck {
 class AllCards {
 
   List<gameCard> allCards;
+  List temp;
 
   void removeId(int index) {
     allCards.removeAt(index);
@@ -39,7 +39,13 @@ class AllCards {
 
   void getCards() async {
     allCards = new List();
-    QuerySnapshot querySnapshot = await Firestore.instance.collection("collection").getDocuments();
+    var resp = await http.get(
+      Uri.encodeFull("http://monikers.alexparra.me/getAllCards.php")
+    );
+    temp = JSON.decode(resp.body);
+    for(int i = 0; i < temp.length; i++) {
+      allCards.add(new gameCard(temp[i]["Name"], temp[i]["Description"], int.parse( temp[i]["Points"]), temp[i]["Category"]));
+    }
   }
 
   AllCards() {

@@ -13,16 +13,30 @@ class gameScreen extends StatefulWidget {
 class gameScreenState extends State<gameScreen> {
 
   int _playersLeft;
+  int _redLeft;
+  int _blueLeft;
   bool _rendered = false;
   CurrentDeck deck;
   AllCards cards;
 
-  void _chooseCard() {
+  void splitN(int n) {
+    _playersLeft = n;
+    _redLeft = (n/2).truncate();
+    _blueLeft = (n/2 + n%2).truncate();
+  }
+
+  void _chooseCard(String t) async {
     if (_playersLeft > 0) {
-      _playersLeft -= 1;
-      Navigator.push(context,
-          MaterialPageRoute(builder: (context) => cardChooser())
+      final result = await Navigator.push(context,
+          MaterialPageRoute(builder: (context) => cardChooser(cards: cards, deck: deck))
       );
+      if (result && t == "r") {
+        _playersLeft -= 1;
+        _redLeft--;
+      } else if (result && t=="b") {
+        _playersLeft--;
+        _blueLeft--;
+      }
     } else {
       return;
     }
@@ -34,8 +48,9 @@ class gameScreenState extends State<gameScreen> {
   @override
   Widget build(BuildContext context) {
     if (!_rendered) {
-      _playersLeft  = widget.values.elementAt(0).value.truncate();
-      //cards = new AllCards();
+      splitN(widget.values.elementAt(0).value.truncate());
+      cards = new AllCards();
+      deck = new CurrentDeck();
     }
     _rendered = true;
     return new Scaffold(
@@ -69,17 +84,17 @@ class gameScreenState extends State<gameScreen> {
                                 style: new TextStyle(fontSize: 14.0,
                                     fontWeight: FontWeight.w600,
                                     color: Colors.blue),),
-                              subtitle: new Text('You still have $_playersLeft players that need to choose!'),
+                              subtitle: new Text('You still have $_blueLeft players that need to choose!'),
                             ),
                             new ButtonTheme.bar(
                               child: new ButtonBar(
                                 children: <Widget>[
                                   new FlatButton(onPressed:
 
-                                  _playersLeft == 0 ? null :
+                                  _blueLeft == 0 ? null :
                                       () {
                                     setState(() {
-                                      _chooseCard();
+                                      _chooseCard("b");
                                     });
                                   }
                                     , child: new Text('CHOOSE CARDS',
@@ -105,17 +120,17 @@ class gameScreenState extends State<gameScreen> {
                                 style: new TextStyle(fontSize: 14.0,
                                     fontWeight: FontWeight.w600,
                                     color: Colors.red),),
-                              subtitle: new Text('You still have $_playersLeft players that need to choose!'),
+                              subtitle: new Text('You still have $_redLeft players that need to choose!'),
                             ),
                             new ButtonTheme.bar(
                               child: new ButtonBar(
                                 children: <Widget>[
                                   new FlatButton(onPressed:
 
-                                  _playersLeft == 0 ? null :
+                                  _redLeft == 0 ? null :
                                       () {
                                     setState(() {
-                                      _chooseCard();
+                                      _chooseCard("r");
                                     });
                                   }, child: new Text('CHOOSE CARDS',
                                     style: new TextStyle(
@@ -139,7 +154,6 @@ class gameScreenState extends State<gameScreen> {
                     )),
                     color: _playersLeft > 0 ? Theme.of(context).primaryColorLight : Theme.of(context).accentColor,
                   ),
-                  //new Text(cards.allCards.elementAt(0).name),
                 ],
               )
             ],
